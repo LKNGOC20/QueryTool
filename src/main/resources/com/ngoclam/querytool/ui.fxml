@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox alignment="CENTER" minHeight="586.0" minWidth="936.0" prefHeight="710.0" prefWidth="1097.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ngoclam.querytool.Main_Controller">
+   <children>
+      <Label fx:id="textResult" alignment="BASELINE_CENTER" contentDisplay="CENTER" prefHeight="52.0" prefWidth="955.0" text="SQL COMMAND" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" VBox.vgrow="ALWAYS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" />
+         </VBox.margin>
+      </Label>
+      <TextArea fx:id="SQLText" prefHeight="200.0" prefWidth="955.0" promptText="Nhập câu lệnh SQL ở đây " VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" />
+         </VBox.margin>
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextArea>
+      <HBox prefHeight="40.0" prefWidth="748.0">
+         <children>
+            <Button fx:id="Run" mnemonicParsing="false" onAction="#OnClickExecute" prefHeight="40.0" prefWidth="80.0" text="Chạy">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="Copy" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnClickCopy" prefHeight="40.0" prefWidth="80.0" text="Chép">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="Paste" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnClickPaste" prefHeight="40.0" prefWidth="80.0" text="Dán">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="Clear" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnClickClear" prefHeight="40.0" prefWidth="80.0" text="Xóa">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="Save" alignment="CENTER" contentDisplay="RIGHT" onAction="#OnClickSave" prefHeight="40.0" prefWidth="80.0" text="Lưu" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <TableView fx:id="ResultSQL" prefHeight="268.0" prefWidth="895.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" />
+         </VBox.margin>
+         <cursor>
+            <Cursor fx:constant="CROSSHAIR" />
+         </cursor>
+      </TableView>
+      <HBox prefHeight="40.0" prefWidth="748.0">
+         <children>
+            <Button fx:id="Setting" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnClickSetting" prefHeight="40.0" prefWidth="80.0" text="Cài đặt">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Region>
+            <Button fx:id="Exit" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#OnClickExit" prefHeight="40.0" prefWidth="80.0" text="Thoát">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+            <Button fx:id="Export" alignment="CENTER" contentDisplay="RIGHT" onAction="#OnClickExport" prefHeight="40.0" prefWidth="80.0" text="Xuất file" HBox.hgrow="ALWAYS">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="30.0" right="30.0" top="20.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

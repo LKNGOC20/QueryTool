@@ -1,0 +1,119 @@
+#Run{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Run:pressed{
+-fx-padding:5 0 0 0;
+}
+#Run:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Copy{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Copy:pressed{
+-fx-padding:5 0 0 0;
+}
+#Copy:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Paste{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Paste:pressed{
+-fx-padding:5 0 0 0;
+}
+#Paste:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Clear{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Clear:pressed{
+-fx-padding:5 0 0 0;
+}
+#Clear:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Save{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Save:pressed{
+-fx-padding:5 0 0 0;
+}
+#Save:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Setting{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Setting:pressed{
+-fx-padding:5 0 0 0;
+}
+#Setting:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Exit{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Exit:pressed{
+-fx-padding:5 0 0 0;
+}
+#Exit:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
+
+#Export{
+-fx-background-color: rgb(255, 255, 255);
+-fx-border-color: rgb(0, 0, 0);
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-border-radius: 3px;
+}
+#Export:pressed{
+-fx-padding:5 0 0 0;
+}
+#Export:hover{
+-fx-font-weight: bold;
+-fx-background-color: rgb(141, 204, 238);
+}
